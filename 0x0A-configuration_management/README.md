@@ -23,9 +23,9 @@ Puppet 5 Docs
 
 Install puppet-lint
 $ gem install puppet-lint
+
 Tasks
 0. Create a file
-mandatory
 Using Puppet, create a file in /tmp.
 
 Requirements:
@@ -41,8 +41,6 @@ Directory: 0x0A-configuration_management
 File: 0-create_a_file.pp
    
 1. Install a package
-mandatory
-Using Puppet, install flask from pip3.
 
 Requirements:
 
@@ -50,11 +48,10 @@ Install flask
 Version must be 2.1.0
 
 GitHub repository: alx-system_engineering-devops
-Directory: 0x0A-configuration_management
+Directory: 0x0A-configuration_management 
 File: 1-install_a_package.pp
    
 2. Execute a command
-mandatory
 Using Puppet, create a manifest that kills a process named killmenow.
 
 Requirements:
