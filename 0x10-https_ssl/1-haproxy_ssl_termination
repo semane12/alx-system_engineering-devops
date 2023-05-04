@@ -33,18 +33,18 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-frontend  ehoneah-frontend-http
+frontend  semane-se-frontend-http
         bind *:80
         mode http
 	http-request set-header X-Forwarded-Proto http
         default_backend ehoneah-backend
 
-frontend ehoneah-frontend-https
+frontend semane-se-frontend-https
 	bind *:443 ssl crt /etc/haproxy/certs/www.ehoneah.tech.pem
 	http-request set-header X-Forwarded-Proto https
 	default_backend ehoneah-backend
 
-backend ehoneah-backend
+backend semane-se-backend
         balance roundrobin
         server 63210-web-01 54.82.134.145:80 check
         server 63210-web-02 100.26.222.191:80 check
