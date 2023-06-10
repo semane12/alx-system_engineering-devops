@@ -1,5 +1,4 @@
 
-Postmortem project
 BooktifuL requests failure report
 
 Three months ago, it was reported that the BooktifuL platform was returning a 500 error on all requests made on the platform routes, and all the services were down. 90% of the users were affected. The root cause was the failure of our master server, web-01.
