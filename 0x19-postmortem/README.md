@@ -14,6 +14,6 @@ The Booktiful platform is served by two Ubuntu cloud servers. The master server 
 The issue was fixed when the master server was temporarily disconnected for memory clean-up then connected back to the load balancer, and the round-robin algorithm was configured so that both the master and client servers could handle an equal number of requests.
 
 Measures against such problem in future
-  Choose the best load balancing algorithm for your programs
-  Always keep an eye on your servers to ensure they are running properly
-  Have extra back-up servers to prevent your program from completely going offline during an issue
+  . Choose the best load balancing algorithm for your programs
+  . Always keep an eye on your servers to ensure they are running properly
+  . Have extra back-up servers to prevent your program from completely going offline during an issue
